@@ -1,0 +1,44 @@
+.title {
+  background-color: gray;
+  text-align: center;
+  color:red;
+  outline-style: groove;
+}
+
+.img1 {
+  float: left;
+  width: 200px;
+}
+
+.img2 {
+  float: right;
+  width: 300px; 
+  height: 200px;
+  border-radius: 35%;
+}
+  
+#formOne {
+  margin:auto;
+  width: 50%;
+  text-align:center;
+  color:black;
+}
+  
+#result {
+  display:none;
+}
+  
+.speech-bubble {
+  display:none;
+  position: center;
+  background: #466b83;
+  padding: 15px;
+  margin:15px;
+  color:black;
+  font-size: 25px;
+  outline-style: dotted;
+}
+  
+body {
+  background: beige;
+}
