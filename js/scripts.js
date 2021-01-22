@@ -13,7 +13,7 @@ $(document).ready(function () {
     $("#result").text(joinedArray);
 
     $("#result").show();
-    
+
 //Business Logic
     function robogerTranslate(number) {
       let output = [];
