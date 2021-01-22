@@ -30,6 +30,22 @@
   margin-right: auto;
   width: 100%;
 }
+
+.img4 {
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6%;
+}
+
+.img5 {
+  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6%;
+}
  
 #formOne {
   margin: auto;
