@@ -18,7 +18,7 @@ This website was built to allow user to input a number and get a response in rob
 * Can be cloned from [repository](https://github.com/kody7mm/roboger.git)
 
 ## Specs
-* Accepts a range of numbers 
+* Accepts a range of numbers starting from 0 
 >* Input: "Takes a range of numbers and outputs a series of responses based on input number"
 >* 0, "Boop!", "Beep!", "Wont you be my neighbor!", 5, 6, 7, 8, 9, etc
 
