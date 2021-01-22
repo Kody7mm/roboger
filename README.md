@@ -38,7 +38,7 @@ This website was built to allow user to input a number and get a response in rob
 >* Input: "3"
 >* Output: "0, Beep!, Boop!, Wont you be my neighbor!"
 
-* All non replaced numbers appear as normal "4".
+* All non replaced numbers appear as normal, for example, "4", would appear as a normal "4"
 >* Input: "4"
 >* Output: "0, Beep!, Boop!, Wont you be my neighbor!, 4"
 
