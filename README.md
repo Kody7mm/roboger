@@ -17,7 +17,6 @@ This website was built to allow user to input a number and get a response in rob
 * [Project Page](https://github.com/kody7mm/roboger)
 
 * Open the terminal on your local machine
-* Can be cloned from [repository](https://github.com/kody7mm/roboger.git)
 * Clone this project with the following git command $ git clone <https://github.com/kody7mm/roboger>
 * Navigate to the top level of the repository with the command $ cd mr-roboger
 * Open index.html in the browser of your choice with the command $ open index.html.
