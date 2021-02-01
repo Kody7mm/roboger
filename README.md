@@ -15,36 +15,31 @@ This website was built to allow user to input a number and get a response in rob
 ## Setup/Installation Requirement
 * [Portfolio](https://github.com/kody7mm/)
 * [Project Page](https://github.com/kody7mm/roboger)
+
+* Open the terminal on your local machine
 * Can be cloned from [repository](https://github.com/kody7mm/roboger.git)
-
-## Specs
-* Accepts a range of numbers starting from 0 
->* Input: "Takes a range of numbers and outputs a series of responses based on input number"
->* 0, "Boop!", "Beep!", "Wont you be my neighbor!", 5, 6, 7, 8, 9, etc
-
-* Replaces numbers with a 1 with the word "Beep!"
->* Input: "1"
->* Output: "0, Beep!"
-
-* Replaces numbers with a 1 with the word "Beep!"
->* Input: "1"
->* Output: "0, Beep!"
-
-* Replaces numbers with a 2 with the word "Boop!"
->* Input: "2"
->* Output: "0, Beep!, Boop!"
-
-* Replaces numbers with a 3 with the words "Wont you be my neighbor!"
->* Input: "3"
->* Output: "0, Beep!, Boop!, Wont you be my neighbor!"
-
-* All non replaced numbers appear as normal, for example, "4", would appear as a normal "4"
->* Input: "4"
->* Output: "0, Beep!, Boop!, Wont you be my neighbor!, 4"
+* Clone this project with the following git command $ git clone <https://github.com/kody7mm/roboger>
+* Navigate to the top level of the repository with the command $ cd mr-roboger
+* Open index.html in the browser of your choice with the command $ open index.html.
 
 ## Known Bugs
 * Design will be improved
 * Improvements to floating could be implemented after more experience and practice is had.
+
+## Tests
+* Describe: robogerTranslate(number) {
+>* Test: "It should return an array with a 0 if the number 0 is inputted"
+>* Output: (robogerTranslate(0).toEqual([0]);
+
+>* Test: "It should recognize if a number in the sequence includes a 1 and replace it with 'Beep!'"
+>* Expect(robogerTranslate(10).toEqual([0, "Beep!", 2, 3, 4, 5, 6, 7, 8, 9, "Beep!"]);
+
+>* Test: "It should recognize if a number in the sequence includes a 2, taking precedence over numbers with a 1, and replace it with 'Boop!'"
+>* Expect(robogerTranslate(12).toEqual([0, "Beep!", "Boop!", 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!"]);
+
+>* Test: "It should recognize if a number in the sequence includes a 3, taking precedence over numbers with a 1 or 2, and replace it with 'Won't you be my neighbor?'"
+>* Expect(robogerTranslate(13).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]);
+
 
 ## License
 [GPL](https://choosealicense.com/licenses/gpl-3.0/)
