@@ -1,21 +1,3 @@
-//User Logic//
-$(document).ready(function () {
-  $("#formOne").submit(function (event) {
-    event.preventDefault();
-
-    let userInput = $("#numberVal").val();
-    let newArray = robogerTranslate(userInput);
-
-    let joinedArray = [];
-    joinedArray.push(newArray.join(" "));
-
-    $(".speech-bubble").show();
-    $("#result").text(joinedArray);
-
-    $("#result").show();
-  });
-});
-
 //Business Logic
 function robogerTranslate(number) {
   let output = [];
@@ -33,3 +15,21 @@ function robogerTranslate(number) {
   }
   return output;
 };
+
+//User Logic//
+$(document).ready(function () {
+  $("#formOne").submit(function (event) {
+    event.preventDefault();
+
+    let userInput = $("#numberVal").val();
+    let newArray = robogerTranslate(userInput);
+
+    let joinedArray = [];
+    joinedArray.push(newArray.join(" "));
+
+    $(".speech-bubble").show();
+    $("#result").text(joinedArray);
+
+    $("#result").show();
+  });
+});
