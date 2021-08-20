@@ -11,7 +11,7 @@
 * jQuery
 
 ## Description
-This website was built to allow user to input a number and get a response in robot? A nese? Lish? Whats the proper term for robot language?
+This website was built to allow user to input a number and get a response in robot? nese? Lish? Whats the proper term for robot language? *Makes note*
 
 ## Setup/Installation Requirement
 * [Portfolio](https://github.com/kody7mm/)
