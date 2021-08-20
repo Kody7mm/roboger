@@ -1,0 +1,15 @@
+
+#formOne {
+  margin: auto;
+  text-align: center;
+}
+
+#result {
+  display: none;
+}
+
+.speech-bubble {
+  display: none;
+  position: center;
+  color: green;
+}
