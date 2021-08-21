@@ -41,6 +41,10 @@
   background-color: seashell;
 } 
 
+img:hover {
+  opacity: 0.0;
+}
+
 body {
-  opacity: 0.85;
+  opacity: 0.80;
 }
