@@ -40,3 +40,7 @@
   padding-left: 20px;
   background-color: seashell;
 } 
+
+body {
+  opacity: 0.85;
+}
